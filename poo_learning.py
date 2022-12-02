@@ -10,7 +10,7 @@ class Cats:
         self.left_lives = 9
         Cats.nr_of_cats += 1
     
-    def __del__(self)
+    # def __del__(self)
     # elimina el objeto una vez deja
     # de ser referenciado por una variable
 
