@@ -9,6 +9,10 @@ class Cats:
         self.foods = []
         self.left_lives = 9
         Cats.nr_of_cats += 1
+    
+    def __del__(self)
+    # elimina el objeto una vez deja
+    # de ser referenciado por una variable
 
     def life_stage(self):
         if self.age > 3:
@@ -38,7 +42,7 @@ p.dies()
 p.dies()
 
 p.nr_of_cats = 5
-#changing an atribute from just an object
+#changing an atribute from just one object
 print(Cats.nr_of_cats)
 print(p.nr_of_cats)
 print(b.nr_of_cats)
